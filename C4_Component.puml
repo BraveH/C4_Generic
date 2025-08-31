@@ -1,5 +1,5 @@
 ' convert it with additional command line argument -DRELATIVE_INCLUDE="relative/absolute" to use locally
-!include C4_Container.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/C4_Container.puml
 ' Scope: A single container.
 ' Primary elements: Components within the container in scope.
 ' Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
