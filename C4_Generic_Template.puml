@@ -1,27 +1,27 @@
-!include D:/PlantUML/C4_Context.puml
-!include D:/PlantUML/C4_Component.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/C4_Context.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/C4_Component.puml
 
 skinparam DefaultFontSize 10
 skinparam componentStyle rectangle
 
 SHOW_PERSON_OUTLINE()
 
-!include D:/PlantUML/icons/sms.puml
-!include D:/PlantUML/icons/credit_card.puml
-!include D:/PlantUML/icons/input.puml
-!include D:/PlantUML/icons/import_export.puml
-!include D:/PlantUML/icons/envelope.puml
-!include D:/PlantUML/icons/money_bill_wave.puml
-!include D:/PlantUML/icons/react.puml
-!include D:/PlantUML/icons/scriptcs.puml
-!include D:/PlantUML/icons/java.puml
-!include D:/PlantUML/icons/server.puml
-!include D:/PlantUML/icons/database.puml
-!include D:/PlantUML/icons/notifications.puml
-!include D:/PlantUML/icons/angular.puml
-!include D:/PlantUML/icons/angularjs.puml
-!include D:/PlantUML/icons/credit_card.puml
-!include D:/PlantUML/icons/shopping_cart.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/sms.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/credit_card.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/input.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/import_export.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/envelope.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/money_bill_wave.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/react.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/scriptcs.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/java.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/server.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/database.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/notifications.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/angular.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/angularjs.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/credit_card.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/icons/shopping_cart.puml
 !global $LEGEND_TITLE_COLOR = "#Gray"
 
 AddElementTag("new_component", $bgColor="#Purple", $fontColor="#FFFFFF", $shadowing="true")

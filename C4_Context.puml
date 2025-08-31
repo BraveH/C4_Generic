@@ -1,5 +1,5 @@
 ' convert it with additional command line argument -DRELATIVE_INCLUDE="relative/absolute" to use locally
-!include D:/PlantUML/C4.puml
+!include https://raw.githubusercontent.com/BraveH/C4_Generic/refs/heads/main/C4.puml
 
 ' Scope: A single software system.
 ' Primary elements: The software system in scope.
