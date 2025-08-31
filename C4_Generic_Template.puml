@@ -1,0 +1,49 @@
+!include D:/PlantUML/C4_Context.puml
+!include D:/PlantUML/C4_Component.puml
+
+skinparam DefaultFontSize 10
+skinparam componentStyle rectangle
+
+SHOW_PERSON_OUTLINE()
+
+!include D:/PlantUML/icons/sms.puml
+!include D:/PlantUML/icons/credit_card.puml
+!include D:/PlantUML/icons/input.puml
+!include D:/PlantUML/icons/import_export.puml
+!include D:/PlantUML/icons/envelope.puml
+!include D:/PlantUML/icons/money_bill_wave.puml
+!include D:/PlantUML/icons/react.puml
+!include D:/PlantUML/icons/scriptcs.puml
+!include D:/PlantUML/icons/java.puml
+!include D:/PlantUML/icons/server.puml
+!include D:/PlantUML/icons/database.puml
+!include D:/PlantUML/icons/notifications.puml
+!include D:/PlantUML/icons/angular.puml
+!include D:/PlantUML/icons/angularjs.puml
+!include D:/PlantUML/icons/credit_card.puml
+!include D:/PlantUML/icons/shopping_cart.puml
+!global $LEGEND_TITLE_COLOR = "#Gray"
+
+AddElementTag("new_component", $bgColor="#Purple", $fontColor="#FFFFFF", $shadowing="true")
+AddElementTag("no_change", $bgColor="#Gray", $fontColor="#FFFFFF", $shadowing="true")
+AddElementTag("impacted_component", $bgColor="#Darkorange",$fontColor="#FFFFFF", $shadowing="true")
+
+skinparam sequenceMessageAlign center
+skinparam style stricture
+hide footbox
+hide unlinked
+skinparam sequence {
+    LifeLineBackgroundColor #A9DCDF
+    LifeLineBorderColor #368E92
+    group {
+    FontStyle plain
+    BackGroundColor wight
+  }
+  groupHeader {
+    FontStyle plain
+    FontColor red
+  }
+
+}
+
+LAYOUT_TOP_DOWN()
